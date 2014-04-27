@@ -1,0 +1,28 @@
+body {
+	background: url("http://ecx.images-amazon.com/images/I/71N1Eic6kzL._SL1200_.jpg");
+	font-family: britannic;
+	text-align: center;
+	background-size:cover;
+	background-position:center;
+	padding:80px;
+	color:white;
+}
+
+img {
+	height:150px;
+	margin:15px;
+}
+
+#the_cat {
+	height:200px;
+}
+
+#the_title {
+	font-size: 72px;
+}
+
+@media screen and (max-width: 1000px) {
+	body {
+		padding-top: 160px;
+	}
+}
